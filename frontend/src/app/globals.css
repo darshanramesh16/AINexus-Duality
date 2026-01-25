@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+    /* Strict Palette Variables - Deep Blue Theme */
+    --color-primary-dark: #0e2e72;
+    /* Deep Blue */
+    --color-secondary-dark: #3498db;
+    /* Light Blue */
+    --color-primary-accent: #38bdf8;
+    /* Sky 400 */
+    --color-light-accent: #bae6fd;
+    /* Sky 200 */
+    --color-soft-bg: #ffffff;
+    /* Pure White */
+    --color-logout-red: #dc2626;
+
+    /* Mapping to 'primary' scale for existing UI compatibility */
+    --color-primary-50: #f0f9ff;
+    --color-primary-100: #e0f2fe;
+    --color-primary-200: #bae6fd;
+    --color-primary-300: #7dd3fc;
+    --color-primary-400: #38bdf8;
+    --color-primary-500: #0ea5e9;
+    --color-primary-600: #0284c7;
+    --color-primary-700: #0369a1;
+    --color-primary-800: #075985;
+    --color-primary-900: #0c4a6e;
+    --color-primary-950: #082f49;
+
+    /* Mapping to 'secondary' scale */
+    --color-secondary-50: #f0f9ff;
+    --color-secondary-100: #e0f2fe;
+    --color-secondary-200: #bae6fd;
+    --color-secondary-300: #7dd3fc;
+    --color-secondary-400: #38bdf8;
+    --color-secondary-500: #0ea5e9;
+    --color-secondary-600: #0284c7;
+    --color-secondary-700: #0369a1;
+    --color-secondary-800: #075985;
+    --color-secondary-900: #0c4a6e;
+}
+
+:root {
+    background-color: var(--color-soft-bg);
+    color: var(--color-primary-dark);
+}
